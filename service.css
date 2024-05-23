@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5; /* Light lavender background */
+}
+
+nav {
+    background: #333; /* Black background for navigation */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Increased margin for better spacing */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #f7a1a1; /* Peach color on hover */
+}
+
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f7a1a1; /* Peach background for hero section */
+    color: #333; /* Dark text color for contrast */
+}
+
+.services-section {
+    max-width: 900px;
+    margin: 40px auto; /* Added top and bottom margin */
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for better effect */
+}
+
+.services-section h1 {
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 20px; /* Spacing below headings */
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Spacing between services */
+    padding: 20px;
+    background: #faf3dd; /* Light background for service section */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for service boxes */
+}
+
+.service .icon {
+    font-size: 40px;
+    margin-right: 20px; /* Space between icon and text */
+    color: #e4c1f9; /* Lavender color for icons */
+}
+
+.service h2 {
+    color: #333; /* Darker text color for service titles */
+    margin-bottom: 10px; /* Spacing below service titles */
+}
+
+.service p {
+    line-height: 1.6; /* Increased line height for better readability */
+    color: #666; /* Gray text color for paragraphs */
+    margin-bottom: 0; /* Remove bottom margin */
+}
